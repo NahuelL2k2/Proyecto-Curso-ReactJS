@@ -4,7 +4,7 @@ import NavBar from './components/NavBar/NavBar';
 import ItemCount from './components/ItemCount/ItemCount';
 import Vista from './components/Vista/Vista';
 import Mensaje from './components/Mensaje/Mensaje';
-
+import CartWidget from "./components/CartWidget/CartWidget"
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <ItemCount/>
       <Vista/>
       <Mensaje/>
+      <CartWidget/>
     </>
   );
 }

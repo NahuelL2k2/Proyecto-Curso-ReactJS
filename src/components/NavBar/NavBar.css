@@ -1,12 +1,48 @@
 header{
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid black;
+    
+}
+
+.subNav1{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     border-bottom: 1px solid black;
 }
 
-li{
+.subNav1 h1 {
+    padding-left: 5%;
+}
+
+
+.subNav1 ul{
+    border: 1px solid blue;
+    position: absolute;
+    right: 1%;
+    
+}
+
+.subNav1 ul li{
+    padding: 1.5rem;
+    margin-right: 5px;
+    border: 1px solid red;
     display: inline-block;
-    margin: 1rem;
+    
     cursor: pointer;
+}
+
+.subNav2 ul{
+    
+    list-style: none;   
+    display: flex; 
+    justify-content: center;
+
+}
+
+.subNav2 ul li{
+    cursor: pointer;
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
 }

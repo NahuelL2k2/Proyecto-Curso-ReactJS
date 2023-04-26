@@ -1,17 +1,30 @@
 import "./NavBar.css"
-import CartWidget from "../CartWidget/CartWidget"
+import SearchBar from "../SearchBar/SearchBar"
 
 function NavBar() {
   return (
     <header>
-      <h1>Titulo de la tienda</h1>
-      
-      <ul>
-        <li>Remeras</li>
-        <li>Camperas</li>
-        <li>Buzos</li>
-      </ul>
-      <CartWidget/>
+      <div className="subNav1">
+        <h1>Logo de la tienda</h1>
+
+        <SearchBar />
+
+        <ul>
+          <li>Ayuda</li>
+          <li>Registrarse</li>
+          <li>Iniciar Sesión</li>
+        </ul>
+      </div>
+      <div className="subNav2">
+        <ul>
+          <li>Inicio</li>
+          <li>Productos</li>
+          <li>Contacto</li>
+          <li>TALLES</li>
+          <li>Política de Devolución</li>
+        </ul>
+      </div>
+
     </header>
   )
 }

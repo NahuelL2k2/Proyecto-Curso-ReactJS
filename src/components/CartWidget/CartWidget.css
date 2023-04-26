@@ -1,4 +1,20 @@
 .imgCarrito{
     height: 50px;
-    padding: 10px;
+}
+
+.carrito{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.numCarrito{
+    position: absolute;
+    bottom: 8%;
+    color: red;
 }

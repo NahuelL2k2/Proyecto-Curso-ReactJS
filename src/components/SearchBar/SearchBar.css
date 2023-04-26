@@ -1,0 +1,13 @@
+.divBar{
+    border: 1px solid green;
+    width: 42%;
+    position: absolute;
+    right: 28%;
+}
+
+.searchBar{
+    width: 100%;
+    text-align: center;
+    border-radius: 50px;
+    height: 45px;
+}
