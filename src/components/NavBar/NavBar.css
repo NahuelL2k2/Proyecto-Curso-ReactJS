@@ -17,7 +17,7 @@ header{
 
 
 .subNav1 ul{
-    border: 1px solid blue;
+    
     position: absolute;
     right: 1%;
     
@@ -26,7 +26,7 @@ header{
 .subNav1 ul li{
     padding: 1.5rem;
     margin-right: 5px;
-    border: 1px solid red;
+    
     display: inline-block;
     
     cursor: pointer;
