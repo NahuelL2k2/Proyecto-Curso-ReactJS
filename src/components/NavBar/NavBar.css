@@ -1,8 +1,11 @@
 header{
-    margin: 0;
+    margin: -50px;
     padding: 0;
     border-bottom: 1px solid black;
-    
+}
+
+.logoHeader{
+    margin-left: 200px;
 }
 
 .subNav1{
