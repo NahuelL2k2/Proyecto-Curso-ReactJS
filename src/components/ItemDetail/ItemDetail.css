@@ -1,0 +1,16 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorItem{
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    width: 600px;
+}
+
+.contenedorItem img{
+    height: 450px;
+}

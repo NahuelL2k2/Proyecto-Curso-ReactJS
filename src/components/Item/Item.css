@@ -1,0 +1,19 @@
+.cardProducto{
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.imgProducto{
+    height: 300px;
+}
+
+.btnProducto{
+    text-decoration: none;
+    color: black;
+    width: 90%;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 15px;
+}

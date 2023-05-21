@@ -1,0 +1,13 @@
+.itemCount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    padding: 10px;
+}
+
+button{
+    padding: 10px;
+}

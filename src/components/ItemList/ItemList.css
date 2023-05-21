@@ -1,0 +1,7 @@
+.contenedorProductos{
+    margin-top: 52px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-around;
+}
